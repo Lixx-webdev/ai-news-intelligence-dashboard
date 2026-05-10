@@ -14,7 +14,7 @@ function App() {
 
       setLoading(true);
 
-      const response = await API.get("/articles?limit=10");
+      const response = await API.get("/articles?limit=15");
 
       setArticles(response.data);
 

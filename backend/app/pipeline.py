@@ -10,7 +10,7 @@ def run_pipeline():
 
     data = fetch_news()
 
-    articles = data.get("results", [])[:5]
+    articles = data.get("results", [])[:15]
 
     inserted_count = 0
 
